@@ -22,4 +22,4 @@ description: 当用户要求分步编写代码时使用。
 - I/O 处理
 - 错误处理逻辑
 
-每完成一个逻辑单元，就commit一次，commit message用"partial-<feat/refactor/fix等等>:"开头，commit有助于用户更方便地在IDE中看到你每个步骤做的改动，也能起到备份的作用。如果你觉得commit message不好写，具体的内容可以不填，因为这些commit只是暂时的，最终是要被squash的。
+当用户确认后，就commit一次，commit message用"partial-<feat/refactor/fix等等>:"开头，commit有助于用户更方便地在IDE中看到你每个步骤做的改动，也能起到备份的作用。如果你觉得commit message不好写，具体的内容可以不填，因为这些commit只是暂时的，最终是要被squash的。
