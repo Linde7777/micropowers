@@ -10,8 +10,8 @@ description: Use when making a plan for a programming task.
 3. Create a formal implementation and testing plan, and store it in a new file.
    - **Requirement 1: plan top-down.** Think about how human engineers make plans: what abstractions are needed to satisfy the request, then roughly how those abstractions should be implemented.
    - **Requirement 2: the plan must not be too abbreviated.** Otherwise it leaves room for ambiguity, and different people will interpret it differently, which leads to very different implementations.
-   - One way to think about it: if the plan does not mention a given interface, data model, and so on, then the final implementation should not introduce those things either.
-   - "Not too abbreviated" does not mean writing fluff. If something can be explained clearly in 100 lines, do not use 200. Do not repeat earlier points later using different wording.
+    - One way to think about it: if the plan does not mention a given interface, data model, and so on, then the final implementation should not introduce those things either.
+    - "Not too abbreviated" does not mean writing fluff. If something can be explained clearly in 100 lines, do not use 200. Do not repeat earlier points later using different wording.
    - **Requirement 3: the plan must not be too detailed.** Otherwise it becomes indistinguishable from writing the code directly.
    - As long as these three requirements are met, you may choose any format that works, such as ASCII or Mermaid diagrams, pseudocode, or natural-language design notes.
 4. Review the plan and check whether it satisfies all three requirements.
