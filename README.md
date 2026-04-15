@@ -2,7 +2,7 @@
 
 [中文版本](./README_zh.md)
 
-This skill collection is not designed for producing code quickly. It is designed for code quality. In practice, AI-generated code must be reviewed carefully.
+This skill collection is not designed for producing code quickly. It is designed for code quality. The reality have taught me that the AI-generated code must be reviewed carefully.
 
 - `AGENTS.md` (placed under `~/.codex`): contains the memory mechanism. You must read this before using it, because it is still semi-manual for now.
   - You should maintain project memory in the root-level `AGENTS.md`, such as the rough architecture of the project. Do not skip this. Write down the architecture yourself first, then let AI help fill in the rest.
