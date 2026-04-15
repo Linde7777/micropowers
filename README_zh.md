@@ -18,7 +18,7 @@
 
 ## 其他
 
-Q: 为啥不直接把 incremental-coding 融合进 plan-coding？
+Q: 为啥不直接把 incremental-coding 融合进 plan-coding？  
 A: 这样会分散 AI 的注意力。
 
 在25年底，把 GPT 的推理程度调成high还是不错的，2026年3、4月左右，我发现 medium 会更好，有效减少了过度设计和不遵守指令的问题。
